@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     private readonly float _speed = 8f;
     private float _jumpingPower = 16f;
     private bool _isFacingRight = true;
+    public Animator animator;
 
     [SerializeField] private Rigidbody2D PlayerBody;
     [SerializeField] private Transform groundCheck;
@@ -18,6 +19,7 @@ public class PlayerController : MonoBehaviour
         //this is used to get horizontal movement from human
         _horizontal = Input.GetAxisRaw("Horizontal");
 
+        animator.SetFloat("Speed", Mathf.Abs(_horizontal));
         
         //
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
