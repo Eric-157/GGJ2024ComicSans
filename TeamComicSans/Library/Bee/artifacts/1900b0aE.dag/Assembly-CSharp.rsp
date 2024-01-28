@@ -408,6 +408,7 @@
 "Assets/Frogger/Frog.cs"
 "Assets/Frogger/Goal.cs"
 "Assets/Frogger/Score.cs"
+"Assets/Mainmenu.cs"
 "Assets/PlayerController.cs"
 "Assets/TestScript.cs"
 -langversion:9.0
