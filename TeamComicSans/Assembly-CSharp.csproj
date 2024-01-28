@@ -65,11 +65,13 @@
     <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Core\Pool.cs" />
     <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Core\ProjectileType.cs" />
     <Compile Include="Assets\TestScript.cs" />
+    <Compile Include="Assets\survive.cs" />
     <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Emitters\ProjectileEmitterBasic.cs" />
     <Compile Include="Assets\TopDownController.cs" />
     <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Emitters\ColorPulse.cs" />
     <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Attributes\SeperatorAttribute.cs" />
     <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Attributes\FoldAttribute.cs" />
+    <Compile Include="Assets\splat.cs" />
     <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Emitters\EmitterSpoke.cs" />
     <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Core\ProjectilePrefab.cs" />
     <Compile Include="Assets\Frogger\Frog.cs" />
@@ -83,10 +85,13 @@
     <Compile Include="Assets\Bullet\BulletSpawner.cs" />
     <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Attributes\ConditionalFieldAttribute.cs" />
     <Compile Include="Assets\Frogger\Car.cs" />
+    <Compile Include="Assets\ducky.cs" />
     <Compile Include="Assets\Frogger\Goal.cs" />
     <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Controllers\MouseControl.cs" />
     <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Attributes\FoldManager.cs" />
+    <Compile Include="Assets\credits.cs" />
     <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Emitters\ProjectileEmitterBase.cs" />
+    <Compile Include="Assets\DuckGoal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetTeam\Pictures\New Text Document.txt" />
@@ -743,6 +748,9 @@
     <Reference Include="PsdPlugin">
       <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
@@ -865,6 +873,9 @@
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>

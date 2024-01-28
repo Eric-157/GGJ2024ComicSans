@@ -5,9 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class Mainmenu : MonoBehaviour
 {
-    public void PlayGame ()
+
+    private void Update()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if (Input.GetKeyDown(KeyCode.W)) {
+            SceneManager.LoadScene("credits");
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            SceneManager.LoadScene("Platformer Test");
+        }
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            Application.Quit();
+        }
     }
-    
+
 }

@@ -7,11 +7,7 @@ public class Frog : MonoBehaviour {
 
 	void Update () {
 
-		if (Input.GetKeyDown(KeyCode.D))
-			rb.MovePosition(rb.position + Vector2.right);
-		else if (Input.GetKeyDown(KeyCode.A))
-			rb.MovePosition(rb.position + Vector2.left);
-		else if (Input.GetKeyDown(KeyCode.W))
+		if (Input.GetKeyDown(KeyCode.Space))
 			rb.MovePosition(rb.position + Vector2.up);
 
 	}

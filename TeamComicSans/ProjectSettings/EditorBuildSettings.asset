@@ -8,4 +8,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Platformer Test.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+    guid: b2427833a391fc046807c592656832b3
+  - enabled: 1
+    path: Assets/Scenes/Bridge.unity
+    guid: 527a5b293f473804f990166c12badd52
+  - enabled: 1
+    path: Assets/Scenes/credits.unity
+    guid: 717e817207d297841a0a0656795787ec
+  - enabled: 1
+    path: Assets/Scenes/Ducky.unity
+    guid: 0c19dd13359a03a489c9ca980513e4ad
+  - enabled: 1
+    path: Assets/Scenes/Frogger2 Test.unity
+    guid: ce9a6b88444c4ab49b91c3ff57afb146
+  - enabled: 1
+    path: Assets/Scenes/Hell Test.unity
+    guid: 1ee4b90022d35ec42a85ad78346fa8f3
   m_configObjects: {}
