@@ -25,6 +25,8 @@ public class CarSpawner : MonoBehaviour {
 		Transform spawnPoint = spawnPoints[randomIndex];
 
 		Instantiate(car, spawnPoint.position, spawnPoint.rotation);
+        
 	}
+	
 
 }
