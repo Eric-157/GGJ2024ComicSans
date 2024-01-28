@@ -411,6 +411,7 @@
 "Assets/Mainmenu.cs"
 "Assets/PlayerController.cs"
 "Assets/TestScript.cs"
+"Assets/TopDownController.cs"
 -langversion:9.0
 
 /deterministic
