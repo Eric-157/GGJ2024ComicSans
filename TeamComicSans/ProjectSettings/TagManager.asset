@@ -9,6 +9,11 @@ TagManager:
   - Splat
   - unsplat
   - Goal
+  - Bean
+  - Buddy
+  - Frank
+  - Mouth
+  - Great
   layers:
   - Default
   - TransparentFX

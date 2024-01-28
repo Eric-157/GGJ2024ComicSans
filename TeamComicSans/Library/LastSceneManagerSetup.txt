@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Frogger2 Test.unity
+- path: Assets/Scenes/Hell Test.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

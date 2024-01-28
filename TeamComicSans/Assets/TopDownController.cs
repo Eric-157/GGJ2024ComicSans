@@ -9,6 +9,7 @@ public class TopDownController : MonoBehaviour
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
     private Vector2 movement;
+    public GameObject bullet;
 
     // Update is called once per frame
     void Update()

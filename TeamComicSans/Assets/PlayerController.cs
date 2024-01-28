@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -16,6 +17,26 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            SceneManager.LoadScene("Bridge");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            SceneManager.LoadScene("End");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            SceneManager.LoadScene("Ducky");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            SceneManager.LoadScene("Hell Test");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            SceneManager.LoadScene("Frogger2 Test");
+        }
         //this is used to get horizontal movement from human
         _horizontal = Input.GetAxisRaw("Horizontal");
 
@@ -32,7 +53,34 @@ public class PlayerController : MonoBehaviour
             PlayerBody.velocity = new Vector2(PlayerBody.velocity.x, PlayerBody.velocity.y * 0.5f);
         }
 
+
         Flip();
+
+
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Bean" && Input.GetKeyDown(KeyCode.E))
+        {
+            SceneManager.LoadScene("Bridge");
+        }
+        if (collision.tag == "Great" && Input.GetKeyDown(KeyCode.E))
+        {
+
+        }
+        if (collision.tag == "Buddy" && Input.GetKeyDown(KeyCode.E))
+        {
+            SceneManager.LoadScene("Ducky");
+        }
+        if (collision.tag == "Mouth" && Input.GetKeyDown(KeyCode.E))
+        {
+            SceneManager.LoadScene("Hell Test");
+        }
+        if (collision.tag == "Frank" && Input.GetKeyDown(KeyCode.E))
+        {
+            SceneManager.LoadScene("Frogger2 Test");
+        }
     }
 
     private void FixedUpdate()
