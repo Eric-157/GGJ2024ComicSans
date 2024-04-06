@@ -2345,3 +2345,24 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1980.717060 seconds.
+  path: Assets/AssetTeam/Pictures/trophy frank.png
+  artifactKey: Guid(433eef4e3bc6a694bb835fd0d4ed85d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetTeam/Pictures/trophy frank.png using Guid(433eef4e3bc6a694bb835fd0d4ed85d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8ef0681cba30b59d4fead2f65200d8') in 0.140870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AssetTeam/Pictures/trophy sea bunny.png
+  artifactKey: Guid(b76e16266841ad34eae910ec782aae54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetTeam/Pictures/trophy sea bunny.png using Guid(b76e16266841ad34eae910ec782aae54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0375da11060f3a958ff79a9d3b1a11de') in 0.040512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
