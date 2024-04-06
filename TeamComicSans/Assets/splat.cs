@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class splat : MonoBehaviour
 {
     public Sprite chickenSplat;
+    public bool spriteChanged;
     // Update is called once per frame
     void Update()
     {
@@ -17,6 +18,7 @@ public class splat : MonoBehaviour
                 transform.Translate(0f, -4f, 0f);
             }
             this.gameObject.GetComponent<SpriteRenderer>().sprite = chickenSplat;
+            spriteChanged = true;
             Invoke("LoadScene",1);
         }
     }
