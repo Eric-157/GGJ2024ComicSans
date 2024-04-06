@@ -3145,3 +3145,32 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1160.231784 seconds.
+  path: Assets/AssetTeam/Sounds/BeanMan1.mp3
+  artifactKey: Guid(c15fa8b8e4932184ea29074ac02299a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetTeam/Sounds/BeanMan1.mp3 using Guid(c15fa8b8e4932184ea29074ac02299a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8998dc8e04ee4cc63e0cd391cd885a2f') in 0.139570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AssetTeam/Sounds/Mouth the Devourer 1.mp3
+  artifactKey: Guid(3b3c9b34a12519045846a7a33575d322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetTeam/Sounds/Mouth the Devourer 1.mp3 using Guid(3b3c9b34a12519045846a7a33575d322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c460e40f13df65a211a68f35380448c3') in 0.025850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AssetTeam/Sounds/BeanMan2.mp3
+  artifactKey: Guid(daf4a7265dae9b645a8412006c2f3379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetTeam/Sounds/BeanMan2.mp3 using Guid(daf4a7265dae9b645a8412006c2f3379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112eb1a70fab5d50b509489d0a5f16f9') in 0.024849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
