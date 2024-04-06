@@ -481,6 +481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duck: {fileID: 849375701}
+  quack: {fileID: 0}
 --- !u!50 &849375701
 Rigidbody2D:
   serializedVersion: 4
@@ -1433,7 +1434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbed6113b0ec156468753871036088bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duckgoalscript: {fileID: 0}
+  duckgoalscript: {fileID: 1540375295}
 --- !u!1 &2008214951
 GameObject:
   m_ObjectHideFlags: 0
