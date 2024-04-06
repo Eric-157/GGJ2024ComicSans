@@ -67,6 +67,7 @@
     <Compile Include="Assets\gameWinTitleBulletHell.cs" />
     <Compile Include="Assets\Frogger\Frog.cs" />
     <Compile Include="Assets\Frogger\CarSpawner.cs" />
+    <Compile Include="Assets\dontDestroy.cs" />
     <Compile Include="Assets\gameWinTitleBridge.cs" />
     <Compile Include="Assets\Frogger\Score.cs" />
     <Compile Include="Assets\win.cs" />
