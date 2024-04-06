@@ -59,46 +59,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Mainmenu.cs" />
-    <Compile Include="Assets\Bullet\Bullet.cs" />
-    <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Emitters\ProjectileEmitterShape.cs" />
     <Compile Include="Assets\PlayerController.cs" />
-    <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Core\Pool.cs" />
-    <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Core\ProjectileType.cs" />
     <Compile Include="Assets\TestScript.cs" />
     <Compile Include="Assets\survive.cs" />
-    <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Emitters\ProjectileEmitterBasic.cs" />
     <Compile Include="Assets\TopDownController.cs" />
-    <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Emitters\ColorPulse.cs" />
-    <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Attributes\SeperatorAttribute.cs" />
-    <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Attributes\FoldAttribute.cs" />
     <Compile Include="Assets\splat.cs" />
-    <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Emitters\EmitterSpoke.cs" />
-    <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Core\ProjectilePrefab.cs" />
     <Compile Include="Assets\Frogger\Frog.cs" />
-    <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Emitters\ProjectileEmitterAdvanced.cs" />
     <Compile Include="Assets\Frogger\CarSpawner.cs" />
-    <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Core\ProjectileData.cs" />
-    <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Renderer\IndirectRenderer.cs" />
     <Compile Include="Assets\Frogger\Score.cs" />
     <Compile Include="Assets\win.cs" />
-    <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Emitters\EmitterGroup.cs" />
-    <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\ProjectileManager.cs" />
-    <Compile Include="Assets\Bullet\BulletSpawner.cs" />
-    <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Attributes\ConditionalFieldAttribute.cs" />
     <Compile Include="Assets\Frogger\Car.cs" />
     <Compile Include="Assets\ducky.cs" />
     <Compile Include="Assets\Frogger\Goal.cs" />
-    <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Controllers\MouseControl.cs" />
-    <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Attributes\FoldManager.cs" />
     <Compile Include="Assets\credits.cs" />
-    <Compile Include="Assets\Bullet\Unity-Bullet-Hell\Scripts\Emitters\ProjectileEmitterBase.cs" />
     <Compile Include="Assets\DuckGoal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetTeam\Pictures\New Text Document.txt" />
     <None Include="Assets\AssetTeam\HEHEHAHA.txt" />
-    <None Include="Assets\Bullet\Unity-Bullet-Hell\ProjectileShader.shader" />
-    <None Include="Assets\Bullet\Unity-Bullet-Hell\ProjectileShader_StaticColor.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
