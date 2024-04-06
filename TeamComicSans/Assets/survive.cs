@@ -7,7 +7,7 @@ public class survive : MonoBehaviour
 {
     public float timeRemaining = 10;
     public bool timerIsRunning = false;
-    public static bool hellwin = false;
+    public bool winCondition = false;
     private void Start()
     {
         timerIsRunning = true;
@@ -27,9 +27,13 @@ public class survive : MonoBehaviour
                 Debug.Log("Time has run out!");
                 timeRemaining = 0;
                 timerIsRunning=false;
-                hellwin = true;
-                SceneManager.LoadScene("Platformer Test");
+                winCondition = true;
+                Invoke("LoadScene", 1);
             }
         }
+    }
+    private void LoadScene()
+    {
+        SceneManager.LoadScene("Platformer Test");
     }
 }
