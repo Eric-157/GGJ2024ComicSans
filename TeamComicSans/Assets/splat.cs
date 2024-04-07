@@ -24,6 +24,19 @@ public class splat : MonoBehaviour
     }
     private void LoadScene()
     {
+        if (GameObject.Find("ScoreSaver").GetComponent<dontDestroy>().bridgeWin == true)
+        {
+        }
+        else
+        {
+            GameObject.Find("ScoreSaver").GetComponent<dontDestroy>().bridgeWin = true;
+        }
+
         SceneManager.LoadScene("Platformer Test");
+    }
+
+    private void Start()
+    {
+        GameObject.Find("ScoreSaver").GetComponent<dontDestroy>();
     }
 }

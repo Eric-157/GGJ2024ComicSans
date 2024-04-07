@@ -548,7 +548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 728e3df502e314344a3cc9e8eab29edb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  froggerscript: {fileID: 0}
+  froggerscript: {fileID: 455812191}
 --- !u!1 &451735399
 GameObject:
   m_ObjectHideFlags: 0
