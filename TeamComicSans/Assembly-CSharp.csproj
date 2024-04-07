@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Mainmenu.cs" />
+    <Compile Include="Assets\BridgeText.cs" />
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\FroggerMusic.cs" />
     <Compile Include="Assets\TestScript.cs" />
@@ -66,18 +67,23 @@
     <Compile Include="Assets\TopDownController.cs" />
     <Compile Include="Assets\splat.cs" />
     <Compile Include="Assets\gameWinTitleBulletHell.cs" />
+    <Compile Include="Assets\DuckText.cs" />
     <Compile Include="Assets\Frogger\Frog.cs" />
     <Compile Include="Assets\Frogger\CarSpawner.cs" />
     <Compile Include="Assets\dontDestroy.cs" />
     <Compile Include="Assets\BossBullet.cs" />
+    <Compile Include="Assets\MplusTText.cs" />
     <Compile Include="Assets\Frogger\Score.cs" />
     <Compile Include="Assets\BossShooting.cs" />
     <Compile Include="Assets\win.cs" />
     <Compile Include="Assets\gameWinTitleFrogger.cs" />
     <Compile Include="Assets\gameWinBridge.cs" />
+    <Compile Include="Assets\PauseEscape.cs" />
+    <Compile Include="Assets\WarText.cs" />
     <Compile Include="Assets\Frogger\Car.cs" />
     <Compile Include="Assets\ducky.cs" />
     <Compile Include="Assets\Frogger\Goal.cs" />
+    <Compile Include="Assets\HellText.cs" />
     <Compile Include="Assets\credits.cs" />
     <Compile Include="Assets\gameWinTitleDuck.cs" />
     <Compile Include="Assets\DuckGoal.cs" />

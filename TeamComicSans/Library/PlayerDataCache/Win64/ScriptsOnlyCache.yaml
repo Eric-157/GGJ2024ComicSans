@@ -1,25 +1,31 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp:
-    - BulletHell.ProjectileEmitterAdvanced
-    - BulletHell.ProjectilePrefab
-    - BulletHell.ProjectileType
-    Assembly-CSharp-Editor.dll:
-    - BulletHell.EditorOverride
     Assembly-CSharp.dll:
-    - BulletHell.ProjectileEmitterAdvanced
+    - BridgeText
     - Car
     - CarSpawner
     - DuckGoal
+    - DuckText
+    - EnemyBullet
+    - EnemyShootingA
     - Frog
+    - FroggerMusic
     - Goal
+    - HellText
     - Mainmenu
+    - MplusTText
+    - PauseEscape
     - PlayerController
     - Score
-    - TestScript
     - TopDownController
+    - WarText
     - credits
+    - dontDestroy
     - ducky
+    - gameWinBridge
+    - gameWinTitleBulletHell
+    - gameWinTitleDuck
+    - gameWinTitleFrogger
     - splat
     - survive
     - win
@@ -103,7 +109,11 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 21124}
+      Script: {instanceID: 21120}
+    - Class: 114
+      Script: {instanceID: 21816}
+    - Class: 114
+      Script: {instanceID: 49680}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -142,9 +152,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 612}
     - Class: 114
-      Script: {instanceID: 16914}
+      Script: {instanceID: 16916}
+    - Class: 114
+      Script: {instanceID: 18234}
     - Class: 114
       Script: {instanceID: 18722}
+    - Class: 114
+      Script: {instanceID: 49680}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -179,7 +193,9 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 31554}
+      Script: {instanceID: 23494}
+    - Class: 114
+      Script: {instanceID: 49680}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -220,25 +236,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 612}
     - Class: 114
-      Script: {instanceID: 17954}
+      Script: {instanceID: 16874}
     - Class: 114
-      Script: {instanceID: 18210}
+      Script: {instanceID: 17952}
+    - Class: 114
+      Script: {instanceID: 18206}
     - Class: 114
       Script: {instanceID: 18786}
     - Class: 114
-      Script: {instanceID: 19270}
+      Script: {instanceID: 19268}
     - Class: 114
-      Script: {instanceID: 21538}
+      Script: {instanceID: 20014}
     - Class: 114
-      Script: {instanceID: 21936}
+      Script: {instanceID: 21530}
     - Class: 114
-      Script: {instanceID: 22240}
+      Script: {instanceID: 21926}
     - Class: 114
-      Script: {instanceID: 22590}
+      Script: {instanceID: 22228}
     - Class: 114
-      Script: {instanceID: 23818}
+      Script: {instanceID: 22572}
     - Class: 114
-      Script: {instanceID: 24052}
+      Script: {instanceID: 23796}
+    - Class: 114
+      Script: {instanceID: 24032}
+    - Class: 114
+      Script: {instanceID: 49680}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -293,11 +315,17 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 17076}
+      Script: {instanceID: 17886}
     - Class: 114
-      Script: {instanceID: 17888}
+      Script: {instanceID: 20930}
     - Class: 114
-      Script: {instanceID: 22960}
+      Script: {instanceID: 22940}
+    - Class: 114
+      Script: {instanceID: 23798}
+    - Class: 114
+      Script: {instanceID: 23850}
+    - Class: 114
+      Script: {instanceID: 49680}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -346,20 +374,36 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17104}
     - Class: 114
-      Script: {instanceID: 17876}
+      Script: {instanceID: 17874}
     - Class: 114
-      Script: {instanceID: 18040}
+      Script: {instanceID: 18038}
     - Class: 114
-      Script: {instanceID: 19102}
+      Script: {instanceID: 18628}
     - Class: 114
-      Script: {instanceID: 21892}
+      Script: {instanceID: 19100}
     - Class: 114
-      Script: {instanceID: 23562}
+      Script: {instanceID: 20954}
+    - Class: 114
+      Script: {instanceID: 21882}
+    - Class: 114
+      Script: {instanceID: 23540}
+    - Class: 114
+      Script: {instanceID: 29270}
+    - Class: 114
+      Script: {instanceID: 34058}
+    - Class: 114
+      Script: {instanceID: 46180}
+    - Class: 114
+      Script: {instanceID: 49680}
+    - Class: 114
+      Script: {instanceID: 80256}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 210
       Script: {instanceID: 0}
     - Class: 212
       Script: {instanceID: 0}
@@ -386,8 +430,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
     - Class: 81
@@ -399,18 +441,16 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 17076}
+      Script: {instanceID: 17920}
     - Class: 114
-      Script: {instanceID: 17922}
-    - Class: 114
-      Script: {instanceID: 20786}
-    - Class: 114
-      Script: {instanceID: 22430}
+      Script: {instanceID: 18628}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 210
       Script: {instanceID: 0}
     - Class: 212
       Script: {instanceID: 0}
@@ -434,7 +474,7 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 20710}
+      Script: {instanceID: 20706}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -508,6 +548,12 @@ ScriptsOnlyBuild:
     className: CinemachineTriggerAction
   - hash:
       serializedVersion: 2
+      Hash: eeb765c9cc22051924d779896b3ec01c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: gameWinTitleFrogger
+  - hash:
+      serializedVersion: 2
       Hash: ea1569413d805748b7cef2dcb4622c85
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -520,7 +566,7 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionStayMessageListener
   - hash:
       serializedVersion: 2
-      Hash: aba2dfcc26cb81ed699883af4df2e65d
+      Hash: c7ecf1d75cd5d313b3fac811221f0542
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ducky
@@ -536,12 +582,6 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine
     namespaceName: 
     className: CinemachineCameraOffset
-  - hash:
-      serializedVersion: 2
-      Hash: aad8f551352f381484c0127535170f47
-    assemblyName: Assembly-CSharp
-    namespaceName: BulletHell
-    className: ProjectileEmitterAdvanced
   - hash:
       serializedVersion: 2
       Hash: e717d651766576eaa33ec67f71de05a1
@@ -724,6 +764,12 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 98ba1b27e7198802c8dad009c5ca0d6c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: gameWinTitleDuck
+  - hash:
+      serializedVersion: 2
       Hash: 34fa63a30926bcf55d7323dae76be890
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -814,6 +860,12 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
+      Hash: 92ad88cfef070bea68a56abbd7285330
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: dontDestroy
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -832,7 +884,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseDragMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
+      Hash: 242b5dd3fea422046a610d4832ebe8f2
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: DuckGoal
@@ -850,7 +902,7 @@ ScriptsOnlyBuild:
     className: UnityOnTransformParentChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
+      Hash: dafb462631b9b9f47bd5ec74e78f9452
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Goal
@@ -934,7 +986,7 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExit2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 6e49e06f5d330cb06ee4ba95be9d9a57
+      Hash: da4c00614b97a74b621f457bd669590b
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CarSpawner
@@ -1006,12 +1058,6 @@ ScriptsOnlyBuild:
     className: SignalReceiver
   - hash:
       serializedVersion: 2
-      Hash: 02788a75d4be6f0af9794a2b3d117f7a
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Bullet
-  - hash:
-      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1070,6 +1116,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e1808f409094969bdd703fd587beac1c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FroggerMusic
   - hash:
       serializedVersion: 2
       Hash: e8459e8c7a67dbaf64a704897273a474
@@ -1174,12 +1226,6 @@ ScriptsOnlyBuild:
     className: CinemachineBlendListCamera
   - hash:
       serializedVersion: 2
-      Hash: 1b162db581907935ce0df4dafc4c51be
-    assemblyName: Assembly-CSharp
-    namespaceName: BulletHell
-    className: ProjectilePrefab
-  - hash:
-      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1216,6 +1262,12 @@ ScriptsOnlyBuild:
     className: CinemachineVolumeSettings
   - hash:
       serializedVersion: 2
+      Hash: a286589f1f9476cbcd9e2b9f800b58f3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: gameWinTitleBulletHell
+  - hash:
+      serializedVersion: 2
       Hash: 6237f92becd6162fa105361ab9ce2a00
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -1226,6 +1278,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 73d6e4d5d19c6f7e82f6e22c79d55a14
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BridgeText
   - hash:
       serializedVersion: 2
       Hash: fa7c62595553866a25a1f687b1914fd2
@@ -1264,7 +1322,7 @@ ScriptsOnlyBuild:
     className: HorizontalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: e435d230995d15fbab6370d26e30c49c
+      Hash: 4b46cc38b5c6f58ef4f3c3dfa5b33238
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: splat
@@ -1330,12 +1388,6 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MouseControl
-  - hash:
-      serializedVersion: 2
       Hash: f6831ac80ec81c5d5b370c0ed0fee997
     assemblyName: Unity.VisualScripting.State
     namespaceName: Unity.VisualScripting
@@ -1352,6 +1404,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineOrbitalTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: 46c94fb7508941d079c51d0208759677
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: gameWinBridge
   - hash:
       serializedVersion: 2
       Hash: a49a017b805bc6b5963903daa5333d5d
@@ -1414,28 +1472,10 @@ ScriptsOnlyBuild:
     className: Frog
   - hash:
       serializedVersion: 2
-      Hash: c4cc61a5bc051ca5c013dd1a172b3553
-    assemblyName: Assembly-CSharp
-    namespaceName: BulletHell
-    className: ProjectileEmitterShape
-  - hash:
-      serializedVersion: 2
-      Hash: c7a11d7aaebdbc4f31de6828de50f3c7
-    assemblyName: Assembly-CSharp
-    namespaceName: BulletHell
-    className: ProjectileEmitterBasic
-  - hash:
-      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseUpAsButtonMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 19458ea1c2e6877141f0abd5b23fdeb5
-    assemblyName: Assembly-CSharp
-    namespaceName: BulletHell
-    className: ProjectileType
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1504,7 +1544,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 2cf76c6ffefdbecdbefc90c876e106d8
+      Hash: a2f0dceb6ed613ed0c2987169ac26e67
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: survive
@@ -1526,12 +1566,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Outline
-  - hash:
-      serializedVersion: 2
-      Hash: adf9c2f7ca02e93e2d67a51397397d2a
-    assemblyName: Assembly-CSharp
-    namespaceName: BulletHell
-    className: ProjectileManager
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1631,6 +1665,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: win
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: RemoteTestResultSender
@@ -1652,12 +1692,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSubmitMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: TestScript
   - hash:
       serializedVersion: 2
       Hash: b12a7dd11b0fae5d3575838fc62c2df3
@@ -1697,15 +1731,21 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnemyBullet
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMoveMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
+      Hash: 129911f015b48ca9f07b75f48004064d
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: EmitterSpoke
+    className: EnemyShootingA
   - hash:
       serializedVersion: 2
       Hash: eb08d30e33bc3276f2249349d4fae510
@@ -1772,12 +1812,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: Variables
-  - hash:
-      serializedVersion: 2
-      Hash: 27d0a18cb5455dde14c0b2b9b5e50691
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: BulletSpawner
   - hash:
       serializedVersion: 2
       Hash: f6831ac80ec81c5d5b370c0ed0fee997
@@ -1870,10 +1904,34 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 73d6e4d5d19c6f7e82f6e22c79d55a14
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DuckText
+  - hash:
+      serializedVersion: 2
+      Hash: 73d6e4d5d19c6f7e82f6e22c79d55a14
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HellText
+  - hash:
+      serializedVersion: 2
+      Hash: 73d6e4d5d19c6f7e82f6e22c79d55a14
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WarText
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: win
+    className: PauseEscape
+  - hash:
+      serializedVersion: 2
+      Hash: 32e2d61e11351e6037112bd86c15a5e1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MplusTText
   platform: 19
   scenePathNames:
   - Assets/Scenes/StartMenu.unity
@@ -1884,4 +1942,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Frogger2 Test.unity
   - Assets/Scenes/Hell Test.unity
   - Assets/Scenes/End.unity
-  playerPath: C:/Users/eedward3/Downloads/CollectionOfChickenKnickknacks/CollectionOfChickenKnickknacks.exe
+  playerPath: C:/Users/ncarey5/Documents/CollectionOfChickenKnickknacks/CollectionOfChickenKnickknacks.exe

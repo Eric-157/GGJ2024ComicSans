@@ -33,4 +33,6 @@ public class Goal : MonoBehaviour {
     {
         GameObject.Find("ScoreSaver").GetComponent<dontDestroy>();
     }
+
+    
 }

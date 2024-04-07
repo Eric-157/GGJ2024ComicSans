@@ -1,16 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class survive : MonoBehaviour
 {
-    public float timeRemaining = 10;
+    public float timeRemaining;
     public bool timerIsRunning = false;
     public bool winCondition = false;
     private void Start()
     {
         timerIsRunning = true;
+        timeRemaining = Random.Range(30, 50);
+        GameObject.Find("ScoreSaver").GetComponent<dontDestroy>();
     }
 
     // Update is called once per frame
@@ -34,6 +37,16 @@ public class survive : MonoBehaviour
     }
     private void LoadScene()
     {
+        if (GameObject.Find("ScoreSaver").GetComponent<dontDestroy>().hellWin == true)
+        {
+        }
+        else
+        {
+            GameObject.Find("ScoreSaver").GetComponent<dontDestroy>().hellWin = true;
+        }
+
         SceneManager.LoadScene("Platformer Test");
     }
+
+   
 }
