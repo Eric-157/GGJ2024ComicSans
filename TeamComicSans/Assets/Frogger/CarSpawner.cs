@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class CarSpawner : MonoBehaviour {
@@ -10,7 +11,13 @@ public class CarSpawner : MonoBehaviour {
 
 	float nextTimeToSpawn = 0f;
 
-	void Update ()
+	public AudioSource audiosource;
+
+    public void Start()
+    {
+        audiosource = GetComponent<AudioSource>();
+    }
+    void Update ()
 	{
 		if (nextTimeToSpawn <= Time.time)
 		{
@@ -25,6 +32,7 @@ public class CarSpawner : MonoBehaviour {
 		Transform spawnPoint = spawnPoints[randomIndex];
 
 		Instantiate(car, spawnPoint.position, spawnPoint.rotation);
+		audiosource.Play();
         
 	}
 	

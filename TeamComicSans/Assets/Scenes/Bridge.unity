@@ -720,7 +720,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2095884053}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80b2144ae897e2c4eb3818944d2beb02, type: 3}
+  m_Script: {fileID: 11500000, guid: bbbafaf67da7ce3419fd1d988d9f3d50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   splatscript: {fileID: 0}

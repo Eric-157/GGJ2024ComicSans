@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Assets\Mainmenu.cs" />
     <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\FroggerMusic.cs" />
     <Compile Include="Assets\TestScript.cs" />
     <Compile Include="Assets\survive.cs" />
     <Compile Include="Assets\TopDownController.cs" />
@@ -68,10 +69,12 @@
     <Compile Include="Assets\Frogger\Frog.cs" />
     <Compile Include="Assets\Frogger\CarSpawner.cs" />
     <Compile Include="Assets\dontDestroy.cs" />
-    <Compile Include="Assets\gameWinTitleBridge.cs" />
+    <Compile Include="Assets\BossBullet.cs" />
     <Compile Include="Assets\Frogger\Score.cs" />
+    <Compile Include="Assets\BossShooting.cs" />
     <Compile Include="Assets\win.cs" />
     <Compile Include="Assets\gameWinTitleFrogger.cs" />
+    <Compile Include="Assets\gameWinBridge.cs" />
     <Compile Include="Assets\Frogger\Car.cs" />
     <Compile Include="Assets\ducky.cs" />
     <Compile Include="Assets\Frogger\Goal.cs" />

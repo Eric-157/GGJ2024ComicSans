@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class TopDownController : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float moveSpeed;
     public Rigidbody2D rb;
     private Vector2 movement;
     public GameObject bullet;
@@ -31,4 +31,20 @@ public class TopDownController : MonoBehaviour
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
+
+    private void Start()
+    {
+        moveSpeed = 7.5f;
+        
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Mouth")
+        {
+            SceneManager.LoadScene("Hell Test");
+        }
+    }
+
+
 }

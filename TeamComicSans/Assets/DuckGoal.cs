@@ -13,6 +13,16 @@ public class DuckGoal : MonoBehaviour
     }
     private void LoadScene()
     {
+        if (GameObject.Find("ScoreSaver").GetComponent<dontDestroy>().duckWin != true)
+        {
+            GameObject.Find("ScoreSaver").GetComponent<dontDestroy>().duckWin = true;
+        }
+
         SceneManager.LoadScene("Platformer Test");
+    }
+
+    private void Start()
+    {
+        GameObject.Find("ScoreSaver").GetComponent<dontDestroy>();
     }
 }
